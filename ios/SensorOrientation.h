@@ -4,7 +4,7 @@
 #import <CoreMotion/CoreMotion.h>
 #import <React/RCTEventEmitter.h>
 
-@interface Orientation : RCTEventEmitter <RCTBridgeModule> {
+@interface SensorOrientation : RCTEventEmitter <RCTBridgeModule> {
     CMMotionManager *_motionManager;
     int logLevel;
 }

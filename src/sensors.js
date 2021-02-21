@@ -8,7 +8,7 @@ const {
   Accelerometer: AccNative,
   Magnetometer: MagnNative,
   Barometer: BarNative,
-  Orientation: OrientNative,
+  SensorOrientation: OrientNative,
 } = NativeModules;
 
 const listenerKeys = new Map([
@@ -16,7 +16,7 @@ const listenerKeys = new Map([
   ["gyroscope", "Gyroscope"],
   ["magnetometer", "Magnetometer"],
   ["barometer", "Barometer"],
-  ["orientation", "Orientation"],
+  ["orientation", "SensorOrientation"],
 ]);
 
 const nativeApis = new Map([
